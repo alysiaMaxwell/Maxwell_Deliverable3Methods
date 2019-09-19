@@ -8,7 +8,7 @@ namespace Maxwell_Deliverable3Methods
         {
             try
             {
-                // Ask user what is there name 
+                // Ask user what is their name 
 
                 Console.WriteLine("What is your name?");
                 Console.WriteLine("");
@@ -22,24 +22,24 @@ namespace Maxwell_Deliverable3Methods
                 Console.WriteLine("Please exit the program and try again.");
             }
         }// End of main 
-
-            // Method used to return users name 
-
-            private static string Greeting ()
-            {
-                 // Declare variable to gather user name 
-
-                 string name =  Console.ReadLine();
-                 
-                 // Greeting to user 
-
-                 Console.WriteLine(""); 
-                 Console.WriteLine("Hello " + name + "!" );
-
-                 // Return users name as a value 
-
-                 return name;
             
-            }// End of greeting method 
+        // Method used to return users name 
+
+        private static string Greeting ()
+        {
+            // Declare variable to gather user name 
+
+            string name =  Console.ReadLine();
+                 
+            // Greeting to user 
+
+            Console.WriteLine(""); 
+            Console.WriteLine("Hello " + name + "!" );
+
+            // Return users name as a value 
+
+            return name;
+            
+        }// End of greeting method 
     }
 }
